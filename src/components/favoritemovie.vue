@@ -5,7 +5,7 @@
     <br />
     <br />
     <div>
-      <label for>Enter your favorite Actress/Actor</label>
+      <label for>Enter your favorite Actress/Actor name</label>
       <br />
       <input id="person" v-model="person" type="text" />
     </div>
