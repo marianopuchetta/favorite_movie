@@ -1,13 +1,13 @@
 <template>
 <body>
   <div id="favoriteMovie" class="container">
-    <h1>Movies with your favorites actors</h1>
+    <h1>Peliculas con tus actores favoritos</h1>
     <br />
     <br />
     <div>
-      <label for>Enter your favorite Actress/Actor name</label>
+      <label for>Escribe el nombre de tu actriz/actor favorito</label>
       <br />
-      <input id="person" v-model="person" type="text" />
+      <input id="persona" v-model="person" type="text" v-on:keypress ="name_autocomplete()" />
     </div>
     <br />
     <button v-on:click="retrievePersons() , getGenre()" class="btn btn-success">Find</button>
@@ -83,6 +83,13 @@ export default {
         });
         console.log(this.stars.results[1].known_for)
     },
+    name_autocomplete(){
+var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias","avila","badajoz","baleares","barcelona","burgos","caceres","cadiz","cantabria","castellon","ceuta","ciudad real","cordoba","cuenca","girona","granada","guadalajara","guipuzcoa","huelva","huesca","jaen","la rioja","las palmas","leon","lleida","lugo","madrid","malaga","melilla","murcia","navarra","ourense","palencia","pontevedra","salamanca","tenerife","segovia","sevilla","soria","tarragona","teruel","toledo","valencia","valladolid","vizcaya","zamora","zaragoza"];
+ ("#persona").autocomplete({
+      source: provincias
+    });
+    console.log('hello')
+    },
     seePicture() {
       image.onmouseover = () => {};
     }
@@ -107,7 +114,7 @@ p{
 }
 body {
   text-align: center;
-  background-color: azure;
+ 
  
 }
 label {
