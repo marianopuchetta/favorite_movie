@@ -99,7 +99,7 @@ var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias",
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 @import url("https://fonts.googleapis.com/css?family=Lilita+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
@@ -158,7 +158,7 @@ input {
 }
 .card {
   border: 1px solid;
-  background-color: rgba(67, 228, 166, 0.5);
+  background-color: rgba(67, 228, 166, 0.8);
  margin:50px;
 }
 .card-columns{

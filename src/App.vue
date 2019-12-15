@@ -13,11 +13,11 @@
       </ul>
     </div>
   </nav>
+  <Adsense adSlot = '3791641209'></Adsense>
 </div>    
-    <Adsense adSlot = '3791641209'></Adsense>
  <footer>
    <router-link to="/terms">
-        <h3 id="footer_items">term of use</h3></router-link>|
+        <h3 id="footer_items">terms of use</h3></router-link>|
       </footer>
     <router-view/>
   </div>
@@ -42,11 +42,9 @@ export default {
  height: 45px;
 }
 #app{
-  background-image: url(assets/tom.jpg),url(assets/dumb.jpg);
-  background-position: 710px 162px,58px 80px;
-  background-repeat: no-repeat;
+  background-image: url(assets/tom.jpg);
   text-align: center;
-  height: 100%;
+  height:100% !important;
 }
 footer{
   background: rgb(15, 127, 219);

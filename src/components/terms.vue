@@ -1,5 +1,5 @@
 <template>
- <div class="container">
+ <div class="container" id="terms_div">
    <br><br><br>
     <h1>Terms and Conditions ("Terms")</h1>
 
@@ -60,5 +60,13 @@ export default {
 </script>
 
 <style>
+#terms_div{
+   color: white;
+    text-shadow: 2px 0 0 rgb(15, 15, 15), -2px 0 0 rgb(15, 15, 15), 0 2px 0 rgb(15, 15, 15), 0 -2px 0 rgb(15, 15, 15), 1px 1px rgb(15, 15, 15), -1px -1px 0 rgb(15, 15, 15), 1px -1px 0 #fff, -1px 1px 0 rgb(15, 13, 13);
 
+}
+h1,h2{
+   color:black;
+ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 rgb(15, 13, 13);
+}
 </style>
