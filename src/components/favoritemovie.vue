@@ -1,16 +1,17 @@
 <template>
-<body>
   <div id="favoriteMovie" class="container">
+    <br><br><br>
     <h1>Peliculas con tus actores favoritos</h1>
     <br />
     <br />
+    
     <div>
       <label for>Escribe el nombre de tu actriz/actor favorito</label>
       <br />
       <input id="persona" v-model="person" type="text" v-on:keypress ="name_autocomplete()" />
     </div>
     <br />
-    <button v-on:click="retrievePersons() , getGenre()" class="btn btn-success">Find</button>
+    <button v-on:click="retrievePersons() , getGenre()" class="btn btn-success">Buscar</button>
     <br />
     <br />
 <div class="card-columns">
@@ -39,7 +40,6 @@
         <br>
       </div>
   </div>
-</body>
 </template>
 <script>
 import { AXIOS } from './http-common'
@@ -107,19 +107,18 @@ var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias",
 h1 {
   font-size: 85px;
   font-family: "Lilita One", cursive;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ text-shadow: 7px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 p{
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
-body {
-  text-align: center;
- 
- 
-}
 label {
   font-size: 25px;
   font-family: "Acme";
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ text-shadow: 7px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 label:hover {
   color: red;
@@ -168,5 +167,4 @@ input {
 img{
   width: 100%;
 }
-
 </style>

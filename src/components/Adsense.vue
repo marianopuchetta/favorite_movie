@@ -1,6 +1,6 @@
 <template>
 
-  <ins class='adsbygoogle' :style="adStyle" :data-ad-client="adClient" :data-ad-slot="adSlot"><h1>hekii</h1></ins>
+  <ins class='adsbygoogle' :style="adStyle" :data-ad-client="adClient" :data-ad-slot="adSlot"></ins>
 </template>
 <script>
 export default {
