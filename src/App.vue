@@ -58,7 +58,9 @@ footer{
 #footer_items{
   font-family: "Lilita One";
    font-size: 15px;
-color:white;
+color:black;
+   text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
 }
 h4{
   color:black;

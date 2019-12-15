@@ -1,10 +1,8 @@
 <template>
   <div id="favoriteMovie" class="container">
-    <br><br><br>
+    <br><br><br><br><br>
     <h1>Peliculas con tus actores favoritos</h1>
-    <br />
-    <br />
-    
+    <br><br><br><br><br> 
     <div>
       <label for>Escribe el nombre de tu actriz/actor favorito</label>
       <br />
@@ -105,10 +103,10 @@ var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias",
 @import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 h1 {
+  color:rgba(21, 138, 138, 0.9);
   font-size: 85px;
   font-family: "Lilita One", cursive;
-   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
- text-shadow: 7px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+ text-shadow: 5px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 p{
   font-family: 'Roboto', sans-serif;
@@ -117,8 +115,7 @@ p{
 label {
   font-size: 25px;
   font-family: "Acme";
-   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
- text-shadow: 7px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+ text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 label:hover {
   color: red;
