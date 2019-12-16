@@ -23,14 +23,6 @@
       <router-link to="/terms">
         <h3 id="terms">terms of use</h3></router-link>
     </div>
-     <div id="footer_item">
-      <router-link to="/terms">
-        <h3 id="terms">terms of u</h3></router-link>
-    </div>
-    <div id="footer_ite">
-      <router-link to="/terms">
-        <h3 id="terms">terms of </h3></router-link>
-    </div>
    <div id="counter">
    <!-- Contador de visitas --> 
     <center><a title="Contador De Visitas Gratis">
@@ -93,5 +85,10 @@ footer > #counter{
 }
 h4{
   color:black;
+}
+@media only screen and (max-width: 768px){
+  #app{
+    
+  }
 }
 </style>

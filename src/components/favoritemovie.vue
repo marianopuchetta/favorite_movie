@@ -1,17 +1,13 @@
 <template>
   <div id="favoriteMovie" class="container">
-    <br><br>
-    <h1 id="peliculas">Peliculas con tus actores favoritos</h1>
-    <br><br>
+<iframe src="//a.exdynsrv.com/iframe.php?idzone=3630161&size=468x60" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>    <h1 id="peliculas">Peliculas con tus actores favoritos</h1>
     <div>
       <label for>Escribe el nombre de tu actriz/actor favorito</label>
-      <br />
+      <br>
       <input id="persona" v-model="person" type="text" v-on:keypress ="name_autocomplete()" />
     </div>
-    <br />
+    <br>
     <button v-on:click="retrievePersons() , getGenre()" class="btn btn-success">Buscar</button>
-    <br />
-    <br />
 <div class="card-columns">
     <div v-for="(star,index) in stars.results" :key="index">
         <div v-for="(movie,inde) in star.known_for" :key="inde">
