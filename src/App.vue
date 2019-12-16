@@ -16,10 +16,20 @@
   </nav>
   <Adsense adSlot = '3791641209'></Adsense>
 </div> 
-<router-view/>   
+<router-view/> 
+ 
  <footer>
+   <div>
+   <!-- Contador de visitas --> 
+<center><a title="Contador De Visitas Gratis">
+<img alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=275729"></a>
+</center>
+<!-- Fin Contador de visitas --> 
+      </div>
+      <div>
    <router-link to="/terms">
-        <h3 id="footer_items">terms of use</h3></router-link>|
+        <h3 id="footer_items">terms of use</h3></router-link>
+      </div>
       </footer>
   </div>
 </template>
@@ -37,6 +47,13 @@ export default {
 </script>
 
 <style>
+center {
+ border: 0px solid;
+ display: flex;
+ height: 100px;
+ width: 100px;
+ bottom:0px;
+ }
 #navbar{
  font-family: "Lilita One", cursive;
  font-size: 20px;
@@ -55,6 +72,7 @@ footer{
    width: 100%;
    height: 20px;
     z-index: 1;
+    display: flex;
 }
 #footer_items{
   font-family: "Lilita One";
