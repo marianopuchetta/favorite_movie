@@ -102,9 +102,7 @@ var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias",
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-#favoritemovie{
-  display: flex;
-}
+
 h1 {
   color:rgba(21, 138, 138, 0.9);
   font-size: 85px;

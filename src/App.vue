@@ -43,7 +43,6 @@ export default {
  height: 45px;
 }
 #app{
-  
   background-image: url(assets/tom.jpg);
   text-align: center;
   height: 100vh !important;
