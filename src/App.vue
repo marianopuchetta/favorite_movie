@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <br><br>
     <div>
     <nav id="navbar" class="navbar navbar-expand-md  bg-primary navbar-dark fixed-top">
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -14,12 +15,12 @@
     </div>
   </nav>
   <Adsense adSlot = '3791641209'></Adsense>
-</div>    
+</div> 
+<router-view/>   
  <footer>
    <router-link to="/terms">
         <h3 id="footer_items">terms of use</h3></router-link>|
       </footer>
-    <router-view/>
   </div>
 </template>
 
@@ -42,9 +43,10 @@ export default {
  height: 45px;
 }
 #app{
+  
   background-image: url(assets/tom.jpg);
   text-align: center;
-  height:100% !important;
+  height: 100vh !important;
 }
 footer{
   background: rgb(15, 127, 219);
