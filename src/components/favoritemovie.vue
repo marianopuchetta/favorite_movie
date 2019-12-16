@@ -1,7 +1,7 @@
 <template>
   <div id="favoriteMovie" class="container">
     <br><br>
-    <h1>Peliculas con tus actores favoritos</h1>
+    <h1 id="peliculas">Peliculas con tus actores favoritos</h1>
     <br><br>
     <div>
       <label for>Escribe el nombre de tu actriz/actor favorito</label>
@@ -103,7 +103,7 @@ var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias",
 @import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-h1 {
+#peliculas{
   color:rgba(21, 138, 138, 0.9);
   font-size: 85px;
   font-family: "Lilita One", cursive;
