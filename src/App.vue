@@ -60,7 +60,8 @@ export default {
 #app{
   background-image: url(assets/tom.jpg);
   text-align: center;
-  height: 100vh !important;
+  
+ 
 }
 footer{
   background: rgb(15, 127, 219);
@@ -75,13 +76,14 @@ footer{
 }
 footer > #counter{
   display: flex;
-  justify-items: center;
-}
+  align-items: center;
+ }
 #terms{
   font-family: "Lilita One";
   font-size: 15px;
   color:black;
   text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  padding:2px;
 }
 h4{
   color:black;
