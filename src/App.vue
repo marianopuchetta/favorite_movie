@@ -1,4 +1,5 @@
 <template>
+<body>
   <div id="app">
     <br><br>
     <div>
@@ -33,6 +34,7 @@
     
  </footer>
   </div>
+  </body>
 </template>
 
 <script>
@@ -57,11 +59,10 @@ export default {
  font-size: 20px;
  height: 45px;
 }
-#app{
+body{
   background-image: url(assets/tom.jpg);
-  text-align: center;
-  
  
+  text-align: center;
 }
 footer{
   background: rgb(15, 127, 219);
@@ -89,8 +90,6 @@ h4{
   color:black;
 }
 @media only screen and (max-width: 768px){
-  #app{
-    
-  }
+  
 }
 </style>

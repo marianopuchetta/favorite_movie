@@ -1,9 +1,8 @@
 <template>
   <div id="favoriteMovie" class="container">
-    <div id="banner">
-<iframe src="//a.exdynsrv.com/iframe.php?idzone=3630161&size=468x60" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-   </div>
-    <h1 id="peliculas">Peliculas con tus actores favoritos</h1>
+    <div>
+      <h1 id="peliculas">Peliculas con tus actores favoritos</h1> 
+    </div>
     <div>
       <label for>Escribe el nombre de tu actriz/actor favorito</label>
       <br>
@@ -164,5 +163,10 @@ input {
 }
 img{
   width: 100%;
+}
+@media only screen and (max-width: 768px){
+  #peliculas{
+    font-size: 55px;
+  }
 }
 </style>
