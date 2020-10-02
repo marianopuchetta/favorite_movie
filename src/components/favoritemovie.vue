@@ -79,13 +79,6 @@ export default {
         });
         console.log(this.stars.results[1].known_for)
     },
-    name_autocomplete(){
-var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias","avila","badajoz","baleares","barcelona","burgos","caceres","cadiz","cantabria","castellon","ceuta","ciudad real","cordoba","cuenca","girona","granada","guadalajara","guipuzcoa","huelva","huesca","jaen","la rioja","las palmas","leon","lleida","lugo","madrid","malaga","melilla","murcia","navarra","ourense","palencia","pontevedra","salamanca","tenerife","segovia","sevilla","soria","tarragona","teruel","toledo","valencia","valladolid","vizcaya","zamora","zaragoza"];
- ("#persona").autocomplete({
-      source: provincias
-    });
-    console.log('hello')
-    },
     seePicture() {
       image.onmouseover = () => {};
     }
@@ -96,41 +89,42 @@ var provincias = ["a coruna","alava","albacete","alicante","almeria","asturias",
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-@import url("https://fonts.googleapis.com/css?family=Lilita+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+.container{
+  margin-top: 5%;
+  
+}
 #peliculas{
   color:rgba(21, 138, 138, 0.9);
-  font-size: 85px;
-  font-family: "Lilita One", cursive;
- text-shadow: 4px 0 0 rgb(17, 17, 17), -2px 0 0 #fff, 0 2px 0 rgb(15, 15, 15), 0 -2px 0 #fff, 1px 1px rgb(15, 15, 15), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-}
+  font-size: 5em;
+  font-family: 'Roboto';
+   font-weight: 900;
+  }
 p{
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 label {
   color:rgb(9, 52, 102);
-  font-size: 25px;
-  font-family: "Acme";
+  font-size: 1.8em;
+  font-family: 'Roboto', sans-serif;
  text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 label:hover {
   color: red;
-  font-size: 35px;
+  font-size: 2em;
   transition-duration: 3s;
 }
 h3 {
-  font-size: 27px;
-  font-family: "Permanent Marker", cursive;
+  font-size: 1.7em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   color: rgba(241, 66, 66, 0.9);
   text-shadow: 1px 1px 2px rgb(238, 238, 240);
 }
 h5 {
-  font-size: 12px;
-  font-family: "Permanent Marker";
+  font-size: .8em;
+  font-family: 'Roboto', sans-serif;
   color: rgb(24, 9, 9);
   text-shadow: 1px 1px 1px rgb(167, 111, 111);
 }
@@ -140,23 +134,24 @@ h5 {
 }
  #genre_figure{
   border-radius: 25px;
-  width: 63px;
-  height: 28px;
+  width: 100%;
+  height: 40%;
   border: 1px solid;
   background-color: rgba(70, 129, 107, 0.5);
-  margin: 3px;
-   display:flex;
+  margin: 1vh;
+  display:flex;
  justify-content: center;
+ align-items: center;
 }
 
 input {
   text-align: center;
-  font-family: "Lilita One", cursive;
+  font-family: 'Roboto', sans-serif;
 }
 .card {
   border: 1px solid;
   background-color: rgba(67, 228, 166, 0.8);
- margin:50px;
+  margin:10vh;
 }
 .card-columns{
  grid-gap: 1rem;

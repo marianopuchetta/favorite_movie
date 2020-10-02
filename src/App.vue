@@ -1,7 +1,6 @@
 <template>
 <body>
   <div id="app">
-    <br><br>
     <div>
    <div>
   <b-navbar toggleable="sm" class="navbar navbar-expand-md  bg-primary navbar-dark fixed-top">
@@ -9,13 +8,10 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-       <!-- <b-nav-item href="#">Link</b-nav-item>
-        <b-nav-item href="#" disabled>Disabled</b-nav-item>-->
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
 </div>
-  <Adsense adSlot = '3791641209'></Adsense>
 </div> 
 <router-view/> 
  <footer>
@@ -24,17 +20,6 @@
        <li>
           <router-link to="/terms">
         terms of use</router-link>
-       </li>
-       <li>
-        <router-link to="/terms">
-        terms of u</router-link>
-       </li>
-       <li>
-          <!-- Contador de visitas --> 
-    <center><a title="Contador De Visitas Gratis">
-     <img alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=275729"></a>
-    </center>
-<!-- Fin Contador de visitas --> 
        </li>
      </ul> 
    </div> 
@@ -45,11 +30,9 @@
 
 <script>
 import Home from './components/favoritemovie.vue'
-import Adsense from './components/Adsense.vue'
 export default {
   name: 'App',
   components: {
-    Adsense,
     Home
   },
   methods: {
@@ -62,17 +45,18 @@ export default {
 </script>
 
 <style>
-#counter {
- border: 0px solid;
- }
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+body{
+text-align: center;
+}
 #navbar{
  font-family: "Lilita One", cursive;
  font-size: 20px;
  height: 45px;
-}
-body{
-  background-image: url(assets/tom.jpg);
-  text-align: center;
 }
 footer{
   background: rgb(15, 127, 219);
