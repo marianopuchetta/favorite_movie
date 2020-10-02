@@ -9,7 +9,7 @@
       <input id="persona" v-model="person" type="text" v-on:keypress ="name_autocomplete()" />
     </div>
     <br>
-    <button v-on:click="retrievePersons() , getGenre()" class="btn btn-success">Buscar</button>
+    <button v-on:click="retrievePersons() , getGenre()" class="btn btn-outline-success">Search</button>
 <div class="card-columns">
     <div v-for="(star,index) in stars.results" :key="index">
         <div v-for="(movie,inde) in star.known_for" :key="inde">
@@ -121,7 +121,6 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: rgba(241, 66, 66, 0.9);
-  text-shadow: 1px 1px 2px rgb(238, 238, 240);
 }
 h5 {
   font-size: .8em;
@@ -129,24 +128,31 @@ h5 {
   color: rgb(24, 9, 9);
 }
 .card-footer{
- display:flex;
- justify-content:center;
+ display: grid;
+ justify-content: center;
+ grid-template-columns: 50%;
+ background-color: transparent;
+ border: none;
+ 
 }
  #genre_figure{
   border-radius: 25px;
   width: 100%;
   height: 40%;
   border: 1px solid;
-  background-color: rgba(70, 129, 107, 0.5);
+  background-color: rgba(87, 240, 87, 0.5) !important;
   margin: 1vh;
   display:flex;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+ align-self: center;
 }
 
 input {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+}
+button{
+  margin-bottom: 1.5vh;
 }
 .card {
   border: 1px solid;

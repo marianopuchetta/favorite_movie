@@ -53,23 +53,19 @@ text-align: center;
  font-size: 20px;
  height: 45px;
 }
-li{
-  list-style:none;
-  font-size: 15px;
-  color:black;
-  text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-  padding:2px;
-}
+
 footer{
   background: rgb(15, 127, 219);
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 20px;
+  height: 3%;
   z-index: 1;
 }
 #footer_items ul li {
-  display: inline;
+  list-style:none;
+  font-size: .8em;
+  text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 h4{
   color:black;
