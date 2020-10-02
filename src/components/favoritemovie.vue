@@ -161,13 +161,13 @@ img{
 }
 @media only screen and (max-width: 768px){
   .container{
-  margin-top: 15%;
+  margin-top: 20%;
 }
   #peliculas{
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .card {
-    margin:.5vh;
+  margin:.5vh 1vh;
  width: 100%;
 }
    #genre_figure{
