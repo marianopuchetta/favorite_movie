@@ -4,7 +4,7 @@
     <div>
    <div>
   <b-navbar toggleable="sm" class="navbar navbar-expand-md  bg-primary navbar-dark fixed-top">
-    <b-navbar-brand href="https://searchactors.herokuapp.com/">Busca tus pelis</b-navbar-brand>
+    <b-navbar-brand href="https://searchactors.herokuapp.com/">Find your movies</b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 *{
   padding:0px;
   margin:0px;

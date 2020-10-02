@@ -1,10 +1,10 @@
 <template>
   <div id="favoriteMovie" class="container">
     <div>
-      <h1 id="peliculas">Peliculas con tus actores favoritos</h1> 
+      <h1 id="peliculas">Find your favorite movies or actors</h1> 
     </div>
     <div>
-      <label for>Escribe el nombre de tu actriz/actor favorito</label>
+      <label for>Write the name of an actor or movie</label>
       <br>
       <input id="persona" v-model="person" type="text" v-on:keypress ="name_autocomplete()" />
     </div>
@@ -88,7 +88,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style >
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .container{
   margin-top: 5%;
@@ -126,7 +126,6 @@ h5 {
   font-size: .8em;
   font-family: 'Roboto', sans-serif;
   color: rgb(24, 9, 9);
-  text-shadow: 1px 1px 1px rgb(167, 111, 111);
 }
 .card-footer{
  display:flex;
@@ -161,7 +160,18 @@ img{
 }
 @media only screen and (max-width: 768px){
   #peliculas{
-    font-size: 55px;
+    font-size: 3.5em;
   }
+   #genre_figure{
+  border-radius: 25px;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(70, 129, 107, 0.4);
+  margin: 1vh;
+}
+h5 {
+  font-weight: 800;
+  font-size: .8em;
+}
 }
 </style>
