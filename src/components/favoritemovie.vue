@@ -92,7 +92,8 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .container{
   margin-top: 5%;
-  
+  text-align: center;
+   font-family: 'Roboto';
 }
 #peliculas{
   color:rgba(21, 138, 138, 0.9);
@@ -159,15 +160,28 @@ img{
   width: 100%;
 }
 @media only screen and (max-width: 768px){
+  .container{
+  margin-top: 15%;
+}
   #peliculas{
-    font-size: 3.5em;
+    font-size: 3em;
   }
+  .card {
+    margin:.5vh;
+ width: 100%;
+}
    #genre_figure{
   border-radius: 25px;
   width: 100%;
   height: 40%;
   background-color: rgba(70, 129, 107, 0.4);
   margin: 1vh;
+}
+label {
+  font-size: 1.6em;
+}
+label:hover {
+  font-size: 2em;
 }
 h5 {
   font-weight: 800;

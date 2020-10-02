@@ -45,18 +45,20 @@ export default {
 </script>
 
 <style scoped>
-*{
-  padding:0px;
-  margin:0px;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body{
 text-align: center;
 }
 #navbar{
- font-family: "Lilita One", cursive;
  font-size: 20px;
  height: 45px;
+}
+li{
+  list-style:none;
+  font-size: 15px;
+  color:black;
+  text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  padding:2px;
 }
 footer{
   background: rgb(15, 127, 219);
@@ -66,21 +68,21 @@ footer{
   height: 20px;
   z-index: 1;
 }
-h4{
-  color:black;
-}
-li{
-  list-style:none;
-   font-family: "Lilita One";
-  font-size: 15px;
-  color:black;
-  text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-  padding:2px;
-}
 #footer_items ul li {
   display: inline;
 }
+h4{
+  color:black;
+}
 @media only screen and (max-width: 768px){
   
+}
+</style>
+<style >
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 </style>
